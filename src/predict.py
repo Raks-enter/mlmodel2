@@ -6,10 +6,10 @@ model = joblib.load('model/model.pkl')
 
 # Sample patient
 sample = pd.DataFrame({
-   '5.1':[5.0]
-   '3.5':[3.0]
-   '1.4':[1.4]
-   '2.0':[2.0]
+   '5.1':[5.0],
+   '3.5':[3.0],
+   '1.4':[1.4],
+   '2.0':[2.0],
 })
 
 prediction = model.predict(sample)[0]
